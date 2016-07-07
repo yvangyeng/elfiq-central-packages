@@ -1,0 +1,64 @@
+{
+  "format": "1",
+  "packages": [
+	{
+      "name": "elfiq-theme",
+      "namespace": "Ext",
+      "format": "1",
+      "version": "1.0.0",
+      "creator": "elfiq",
+      "summary": "Short summary",
+      "detailedDescription": "Long description of package",
+      "type": "theme",
+      "extend": "theme-crisp",
+      "requires": [
+        "font-awesome-4.6.3"
+      ],
+      "signatures": [
+        {
+          "name": "elfiq",
+          "uuid": "2e2077ee-186f-4806-9f28-cdd847e71389",
+          "created": "2016-06-14T16:14:08Z",
+          "algorithm": "SHA1withRSA",
+          "nonce": "YkR6za/7YuY\u003d",
+          "signature": "EvwshpPQ0jQnAneeRn5j8kJa2x6dNwMHV5PnJlCPo54pbnRuUMdNQsSpHkRp7A1N/UfB613pUx3z4lw1Bt9wIh3FX/Z3TjzcEmR6zVr3LAbaZF2+o1wCvJlKRpzhn7i4PZ55QAC9ghODxkifR7MRFEIL0giDP3GlYqWnIgXtZIC0ufA5VbMDH3VttYhqFj9Hse0MrtaAnOYr7pv/nt8ToM4EJ0RGbLDJU4vEIfCAbZp3RZ0bpKlv0iBaRFS+jQWCJAY2bP9hjdfdEEV1zLG91cNgdyOmtmDRy4HnIBlpjFyOGhhuaIhgVhn+XWLbHAXh+GXx+1sYBDWxhZRJw2XnFA\u003d\u003d"
+        }
+      ],
+      "slicer": {
+        "js": [
+          {
+            "path": "${package.dir}/sass/example/custom.js",
+            "isWidgetManifest": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "font-awesome-4.6.3",
+      "namespace": "Ext",
+      "format": "1",
+      "version": "1.0.0",
+      "compatVersion": "4.6.3",
+      "creator": "elfiq",
+      "summary": "Package wrapper for Font Awesome",
+      "detailedDescription": "Sencha Cmd package wrapper for Font Awesome (http://fortawesome.github.io/Font-Awesome/)",
+      "type": "code",
+      "signatures": [
+        {
+          "name": "elfiq",
+          "uuid": "2e2077ee-186f-4806-9f28-cdd847e71389",
+          "created": "2016-06-14T16:12:19Z",
+          "algorithm": "SHA1withRSA",
+          "nonce": "nloUAWQt7+s\u003d",
+          "signature": "Cjfb6m60ftAT9M/r5+wXC4o/GRA41URFZxjT6BE30c7dcr6/f6Opko6+6BnX7Qa92ROaAhM8/AzY7jhtcKK77RUHtISQUiM26PEwAP9B03oqir7YJ7b3x6xXjQbuz79RBb4hOpPy6KCdEVh29DvDuxImS15XLI2RXlVtYhLrnDAnwBVs5VRs8vOkE27u1T/bK8QUYWlVN8Azxgd1LvIc2I9/WvRFa8YMdkfXSAUEJqRikFNBjEErwjpxCE2rzdLNQhPKRAkN10urZea0QxGc2j7dhQNdcGBcpkjeCTJQjbCkQB7mTXH7apiCUt9S0r05mchbsQL3QaP0SY9ESzMiKw\u003d\u003d"
+        }
+      ],
+      "resources": [
+        {
+          "path": "${package.dir}/resources",
+          "output": "shared"
+        }
+      ]
+    }
+  ]
+}
